@@ -77,6 +77,8 @@ body {
   padding: 20px;
   width: 100vw;
   height: 100vh;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 
 main {
@@ -96,7 +98,9 @@ img {
 section {
   margin-bottom: 30px;
 }
-
+h1{
+  margin-bottom: 10px;
+}
 h1,
 p {
   text-align: justify;
@@ -112,15 +116,18 @@ p {
 .purple_list li::marker {
   color: #762d4a;
 }
+.Outfit-font {
+  font-family: "Outfit", serif;
+}
 
 ul,
 ol {
   padding: 20px;
   padding-top: 0px;
+  font-family: "Outfit", serif;
+ 
 }
-span {
-  font-weight: bold;
-}
+
 
 h2 {
   padding-bottom: 10px;
@@ -132,8 +139,13 @@ h2 {
 ul li::marker,
 ol li::marker {
   color: brown;
+  font-weight: bolder;
 }
 
+
+.instruction{
+  margin-left: 20px;
+}
 .border {
   border-top: 2px solid rgba(0, 0, 0, 0.281);
   border-bottom: 2px solid rgba(0, 0, 0, 0.281);
@@ -148,6 +160,7 @@ ol li::marker {
   justify-content: space-between;
   width: 100%;
   margin-top: 10px;
+  font-family: "Outfit", serif;
 }
 .item {
   display: flex;
@@ -162,6 +175,7 @@ ol li::marker {
   width: 100px;
   color: brown;
   font-weight: 700;
+  /* font-family: "Outfit", serif; */
 }
 
 /* with grid */
